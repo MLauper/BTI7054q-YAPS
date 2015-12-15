@@ -1,19 +1,33 @@
 # BTI7054q-YAPS
-Semester Project in Web Programming Modul
+Semester project in the web programming module BTI7054 at the Bern "university"
+of applied sciences ([BFH](http://www.bfh.ch/)).
 
-Tools / Libraries / Versions
-----------------------------
-PHP: 5.6.12
+Abstract
+--------
+The LibVirtShop is a web application which acts as a shop and management user
+interface to buy and manage virtual machines.
 
-libvirt-phpt: 0.4.8
+Software dependencies
+---------------------
+* [PHP](http://php.net/), version >= 5.6.x
+* [libvirt-php](http://libvirt.org/php/), version >= 0.4.8
+* A database supported by PDO, preferably MariaDB (version >= 10.0.x) or MySQL (version >= 5.6.x)
+* ...and more unknown stuff
 
-Guides
-------
-Building Rest API:
-http://www.sitepoint.com/best-practices-rest-api-scratch-introduction/
+Installation instructions
+-------------------------
+### PHP FPM
+...
 
-Best Pracitces:
-http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+### HTTP server
+[nginx](http://nginx.org/) configuration
+
+Guides & ideas
+--------------
+* Building Rest API: http://www.sitepoint.com/best-practices-rest-api-scratch-introduction/
+* Best Pracitces: http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api/
+* Less CSS: http://lesscss.org/
+* Jade HTML templating: http://jade-lang.com/
 
 Assignments
 ===========
