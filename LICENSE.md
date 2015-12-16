@@ -1,7 +1,8 @@
 # MIT/X Consortium License
 
 Copyright 2015 denzy1@bfh.ch
-Copyright 2015 laupm1@bfh.ch
+Copyright 2015 laupm4@bfh.ch
+
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
