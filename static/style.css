@@ -1,0 +1,209 @@
+h1 {
+    color: blue;
+}
+
+.logo {
+    width: 800px;
+}
+.header {
+    width: 1000px;
+}
+
+.menu, .categorySelector {
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: blue;*/
+    font-size: 22px;
+    height: 50px;
+    width: 1000px;
+}
+
+.menu > *, .categorySelector {
+    margin: 10px;
+}
+.menu .leftmenu {
+    float: left;
+}
+.menu .rightmenu {
+    float: right;
+}
+.menu *, .categorySelector * {
+    text-decoration: none;
+    color:black;
+}
+.menu a:visited, .categorySelector a:visited {
+    color: black;
+}
+.menu a:hover, .categorySelector a:hover {
+    color: red;
+}
+.menu a:active, .categorySelector a:active {
+    color: red;
+}
+.categorySelector .activeCategory, .activeMenu {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.article {
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: blue;*/
+    margin: 10px 0px 10px 0px;
+    height: 120px;
+    width: 1000px;
+}
+
+.articleDetails {
+    /*border: 3px solid blue;*/
+    margin: 10px 0px 10px 10px;
+    width: 1000px;
+}
+
+.productAddon {
+    margin: 20px 10px 20px 20px;
+    color: #ff8653;
+}
+.productAddonMin {
+    margin-left: 20px;
+    margin-bottom: 0px;
+    color: #ff8653;
+}
+.productForm {
+    float:right;
+}
+.productAddonForm {
+    float: right;
+}
+
+.specialArticle {
+    background-color: steelblue;
+    border-radius: 10px;
+    border: dotted #0000cc;
+}
+
+.article > img {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.article > h3 {
+    padding-top: 10px;
+}
+.BuyButton {
+    float: right;
+	background-color:#ededed;
+	border-radius:7px;
+	border:1px solid #dcdcdc;
+	cursor:pointer;
+	color:#777777;
+	font-size:18px;
+	font-weight:bold;
+	padding:16px 43px;
+    margin-top: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.article > .BuyButton:hover {
+	background-color:#dfdfdf;
+}
+.article > .BuyButton:active {
+	position:relative;
+	top:1px;
+}
+
+.langSelector, .langSelector * {
+    font-size: 15px;
+    text-decoration: none;
+    float:right;
+}
+
+.registrationForm {
+    width: 1000px;
+}
+.registrationForm input.ng-invalid.ng-touched {
+    background-color: #FA787E;
+}
+.registrationForm input.ng-valid.ng-touched {
+    background-color: #78FA89;
+}
+
+.registrationFormDescription {
+    margin-left: 100px;
+}
+.registrationFormField {
+    float: right;
+    margin-right: 100px;
+}
+
+.checkoutForm, .paymentForm {
+     width: 1000px;
+ }
+
+.checkoutFormDescription, .paymentDescription {
+    margin-left: 100px;
+}
+.checkoutFormField, .paymentFormField {
+    float: right;
+    margin-right: 100px;
+}
+.checkoutLabels, .paymentLabels {
+    float: right;
+}
+
+.accountForm {
+    width: 1000px;
+}
+
+.accountFormDescription {
+    margin-left: 100px;
+}
+.accountFormField {
+    float: right;
+    margin-right: 100px;
+}
+
+.shoppingCartTable, .shoppingCartTable td  {
+    width: 1000px;
+    text-align: left;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    padding: 5px;
+    border: 1px solid black;
+}
+.shoppingCartTable tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+.shoppingCartTable th {
+    background-color: #6390af;
+    color: white;
+}
+.shoppingCartTableRemove {
+    float: right;
+    position: relative;
+    top: 0px;
+}
+
+.confirmDialog {
+    display: none;
+}
+
+.img-zoom {
+    width: 100px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.searchBox {
+    float:right;
+    font-size:17px;
+    width: 250px;
+}
