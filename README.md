@@ -4,103 +4,101 @@ of applied sciences ([BFH](http://www.bfh.ch/)).
 
 Abstract
 --------
-The LibVirtShop is a web application which acts as a shop and management user
-interface to buy and manage virtual machines.
+The LibVirtShop is a web application which acts as a shop to buy and manage virtual machines.
 
 Software dependencies
 ---------------------
 * [PHP](http://php.net/), version >= 5.6.x
-* [libvirt-php](http://libvirt.org/php/), version >= 0.4.8
-* A database supported by PDO, preferably MariaDB (version >= 10.0.x) or MySQL (version >= 5.6.x)
-* ...and more unknown stuff
+* MySQL (version >= 5.6.x)
+We recomand using XAMPP. All the development was done on it.
 
 Installation instructions
 -------------------------
-### PHP FPM
-...
+For Windows:
+* Download XAMPP from https://www.apachefriends.org/
+* Install and run Apache and Mysql
+* Create Database and configure connection settings in the configuration file (db/con_settings.php)
+* Use the SQL Script in the db directory to setup schema and test data
+* Copy all files in the Web Server root directory
 
-### HTTP server
-[nginx](http://nginx.org/) configuration
-
-Guides & ideas
---------------
-* Building Rest API: http://www.sitepoint.com/best-practices-rest-api-scratch-introduction/
-* Best Pracitces: http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api/
-* Less CSS: http://lesscss.org/
-* Jade HTML templating: http://jade-lang.com/
+For Linux:
+* Download and Install XAMPP with apt-get install lamp-server^
+* Create Database and configure connection settings in the configuration file (db/con_settings.php)
+* Use the SQL Script in the db directory to setup schema and test data
+* Copy all files in the Web Server root directory
 
 Assignments
 ===========
 
 Assignment 1
 ------------
-- Team Setup
-- Web Shop Content (List of Categories, products, options and prices)
-- Site Structure
-- Page Structure
+- Team Setup - DONE
+- Web Shop Content (List of Categories, products, options and prices) - DONE
+- Site Structure - DONE
+- Page Structure - DONE
 
 Assignment 2
 ------------
-- Main Page: Content
-- Main Page: Layout
-- Main Page: Styling
-- All other pages
+- Main Page: Content - DONE
+- Main Page: Layout - DONE
+- Main Page: Styling - DONE
+- All other pages - DONE
 
 Assignment 3
 ------------
-- Install XAMPP and an IDE
-- PHP-generated Menu and Product List
-- Modularization and Dynamic Navigation Menu
+- Install XAMPP and an IDE - DONE
+- PHP-generated Menu and Product List - DONE
+- Modularization and Dynamic Navigation Menu - DONE
 
 Assignment 4
 ------------
-- Multi-Page PHP File
-- Multiple Languages
-- More Functions (Simplify existing code)
+- Multi-Page PHP File - DONE
+- Multiple Languages - DONE
+- More Functions (Simplify existing code) - DONE
 
 Assignment 5
 ------------
-- Buy-Now Links and Options
-- Shipping Address
-- Confirmation
+- Buy-Now Links and Options - DONE
+- Shipping Address - DONE
+- Confirmation - DONE
 
 Assignment 6
 ------------
-- Purchase Confirmation
-- Form Validation
-- Dynamic Features
+- Purchase Confirmation - DONE
+- Form Validation - DONE
+- Dynamic Features - DONE
 
 Assignment 7
 ------------
-- Database Design
-- Database Setup
-- PHP Integration
-- Administrator Area
+- Database Design - DONE
+- Database Setup - DONE
+- PHP Integration - DONE
+- Administrator Area - DONE
 
 Assignment 8
 ------------
-- Cookies
-- Shopping Cart
-- User Accounts
+- Cookies - DONE
+- Shopping Cart - DONE
+- User Accounts - DONE
 
 Assignment 9
 ------------
-- Object-Oriented Shopping Cart
-- Object-Oriented Product List
-- HTML Classes
+- Object-Oriented Shopping Cart - DONE
+- Object-Oriented Product List - DONE
+- HTML Classes - DONE
 
 Assignment 10
 -------------
-- AJAX (Add dynamic search field, and another function)
+- AJAX (Add dynamic search field, and another function) - DONE
 
 Assignment 11
 -------------
-- Model-View-Controller
-	- Change folder structure to model, view and controll
-	- Follow MVC guidelines
+- Model-View-Controller - DONE
+	- Change folder structure to model, view and controll - DONE
+	- Follow MVC guidelines - DONE
 
 Assignment 12
 -------------
-- Angular.js Introduction
-- Use Angular.js for form validation
-- Use Angular.js for shopping card
+- Angular.js Introduction - DONE
+- Use Angular.js for form validation - DONE
+- Use Angular.js for shopping card - DONE
