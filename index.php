@@ -7,7 +7,7 @@ session_start();
 
 $pageId = isset($_GET["pageId"]) ? strip_tags($_GET["pageId"]) : "Shop";
 $langId = isset($_COOKIE["langId"]) ? strip_tags($_COOKIE["langId"]) : "en";
-
+ 
 $model = new Model();
 $controller = new Controller($model);
 if (isset($_GET['action'])){
